@@ -1,2 +1,9 @@
 node_modules
 .env
+
+nginx_exporter.js
+
+sea-config.json
+sea-prep.blob
+
+nginx_exporter

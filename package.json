@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "exporter-nginx.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx esbuild ./exporter-nginx.js --allow-overwrite --bundle --platform=node --outfile=./nginx_exporter.js"
+    "build": "npx esbuild ./index.js --allow-overwrite --bundle --platform=node --outfile=./nginx_exporter.js"
   },
   "author": "",
   "license": "ISC",
